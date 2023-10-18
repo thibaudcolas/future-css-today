@@ -1,0 +1,33 @@
+{
+  "name": "future-css-today",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "main": "styles.css",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "browserslist": [
+    "> 1% and last 2 versions",
+    "Firefox ESR",
+    "ios_saf 12",
+    "safari 12",
+    "ie 11",
+    "not ie_mob 11",
+    "android 4.4.3-4.4.4",
+    "OperaMini all"
+  ],
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "postcss-preset-env": "^9.2.0",
+    "prettier": "^3.0.3",
+    "stylelint": "^15.10.3"
+  },
+  "scripts": {
+    "lint": "stylelint styles.css",
+    "format": "",
+    "build": "postcss compat.css -o compat.out.css"
+  }
+}
