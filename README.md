@@ -2,7 +2,8 @@
 
 > Modern CSS techniques we could use today.
 
-Goals
-No tooling 🔥
-More with less
-Great browser support
+Goals:
+
+- No tooling 🔥
+- More with less
+- Great browser support
